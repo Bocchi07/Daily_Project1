@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Kanit&family=Roboto:wght@300;400;500&family=Ubuntu:wght@300&display=swap');
+
+.container{
+	margin: auto;
+	margin-left: 32%;
+	margin-right: 32%;
+
+}
+
+.column{
+	display: inline-block;
+	width: 700px;
+	margin-top: 10px;
+	margin-bottom: 6px;
+
+
+}
+
+.column img{
+	width: 359px;
+	height: 202.49px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 8px;
+
+}
+
+.caption{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	font-family: arial;
+}
+
+.caption h3{
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'Roboto', arial, sans-serif;
+	line-height: 25px;
+	vertical-align: top;
+	margin-top: 0;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #606060 ;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 10px;
+
+}

@@ -1,0 +1,52 @@
+body{
+
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: aliceblue;
+    
+}
+
+.marker{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px auto;
+  
+}
+
+.red{
+    background: linear-gradient(rgb(98, 2, 2), rgb(222, 22, 22), rgb(98,2,2));
+    box-shadow: 0 0 20px 0 rgba(143, 13, 13, 60%);
+}
+
+.green{
+    background: linear-gradient(#335f22,#22ff22, #335f22 ) ;
+    box-shadow: 0 0 20px 0 #33ef2299;
+}
+
+.blue{
+    background: linear-gradient(hsl(240, 60%, 23%),hsl(240, 80%, 40%),hsl(240, 60%, 23%));
+    box-shadow: 0 0 20px 0 hsla(240, 68%, 50%, 0.785);
+}
+
+.cap{
+    width: 43px;
+    height: 40px;
+    margin: auto;
+}
+
+.sleeve{
+    width: 210px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.425);
+    border-left: 10px double black;
+}
+
+.cap, .sleeve{
+    display: inline-block;
+}

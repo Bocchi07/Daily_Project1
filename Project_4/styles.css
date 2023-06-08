@@ -1,0 +1,265 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Kanit&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+        hr{
+            border: 1px solid black;
+            
+
+
+        }
+        /*Name and Email input*/
+        .hwat{
+            margin-top: 0;
+        }
+
+        .input-user input{
+            margin: 50px 0;
+            margin: auto;
+            margin-bottom: 5px ;
+            width: 100px;
+            display: block;           
+        }
+
+        .text{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+        }
+
+
+        
+        /*Just a text*/
+
+        .thanks{
+            margin: 50px 0;
+            width: 200px;
+            display: inline-block;
+           
+        }
+
+         button{
+            margin: 0 5px;
+            display: inline-block;
+        }
+
+
+        /*Google Input*/
+
+        .google{
+
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 5px;
+            width: 110px;
+        }
+       
+        .google-input{
+            display: block;
+            width: 300px;
+            height: 20px;
+            border-radius: 20px;
+            border-color: rgba(0, 0, 0, 0.09);
+            box-shadow: 0 0 1.5px ;
+            margin: 0 auto;
+        }
+
+
+        /*Form Sign Up*/
+
+        .form{
+         
+            margin: auto;
+            width:  29vw;
+            height: 25vh;
+            padding: 5px;
+
+        }
+
+        .first_name{
+            display: inline-block;
+            font-size: px;
+            width: 11vw;
+            height: 4.5vh;
+            border-radius: 5px;
+            border-color: rgba(0, 0, 0, 0.144);
+        }
+
+         .last_name{
+             display: inline-block;
+            font-size: ;
+            width: 11vw;
+            height: 4.5vh;
+            border-radius: 5px;
+            border-color: rgba(0, 0, 0, 0.144)
+
+         }
+
+        .gmail{
+            display: block;
+            width: 23vw;
+            margin: 4px 0;
+            height: 4.5vh;
+            border-radius: 5px;
+            border-color: rgba(0, 0, 0, 0.144)
+        }
+
+        .button{
+            display: block;
+            width: 23.8vw;
+            height: 5.8vh;
+            margin-left: -1px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            border-style: none;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+            }
+
+            hr{
+                margin: 40px;
+            }
+
+        /*Request for a ride  */
+
+       
+        .text-me{
+            margin-left: 3px;
+            margin-top: 0;
+            font-size: 26px;
+        }
+    
+        .request{
+            box-sizing: border-box;
+            width: 250px;
+            height: 170px;
+            margin: auto;
+            }
+
+
+
+        #pickup_location{
+            display: block;
+            width: 93%;
+            margin: auto;
+            margin-bottom: 3px;
+            height: 12%;
+        }
+       
+        #distination{
+            display: block;
+            width: 93%;
+            height: 12%;
+            margin: auto;
+        }
+
+        .request input{
+            border-color: rgba(0, 0, 0, 0.1);
+        }
+
+        .request button{
+             margin-top: 8px;
+            width: 40%;
+            display: inline-block;
+            height: 15%;
+            margin-left: 6px;
+        }
+
+        .now{     
+            background-color: black;
+            color: white;
+        }
+
+        .schedule{
+            background-color: lightgray;
+            border: none;
+        }
+
+        /*DIV ELEMENT PROJECT*/
+
+        .satisfied{
+            width: 250px;
+            height: 76px;
+            border: 1px solid;
+            margin: auto;
+            border-color: rgba(0, 0, 0, 0.322);
+            display: block;
+            margin-bottom: 30px;
+
+        }
+
+        .satisfied p{
+            margin-left: 6px ;
+        }
+
+
+        .satisfied button{
+            margin-left: 6px;
+            width: 35px;
+
+        }
+
+        .youtube{
+            background-color: black;
+        }
+
+        .satisfied h2{
+            font-size: 16px;
+            margin-left: 6px;
+            color: white;
+            font-family: unset;
+        }
+
+        .install{
+            margin: -6px 6px 6px 6px;
+            font-size: 11px;
+            color: lightgrey;
+            font-family: sans-serif;
+
+        } 
+      
+      /*LESSON 9:CAT PHOTOS*/
+      .cat-photo{
+        margin: auto;
+        width: 500px;
+ 
+        height: 60px;
+
+      }
+
+      .cat-photo img{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        vertical-align: middle;
+        margin-right: 5px;
+        object-fit: cover;
+      }
+
+      .cat-photo input{
+        vertical-align: middle;
+        width: 300px;
+       margin-left: 6px;
+        margin-top: 3px;
+        border: none;
+        font-size: 18px;
+      }
+
+      .tweet{
+       background-color: rgb(29, 155, 240);
+      color: white;
+      border: none;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      vertical-align: middle;
+      }
+
+
+
+        

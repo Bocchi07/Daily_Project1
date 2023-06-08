@@ -1,0 +1,95 @@
+*{	
+	margin: 0px;
+	box-sizing: bo;
+	font-style: none;
+}
+
+body{
+	background-image: url(https://cdn.wallpapersafari.com/32/98/UMxn8T.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	border: solid 1px black;
+	background-color: burlywood;
+	padding: 15px 28px ;
+	width: 50%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	max-height: 1000px;
+}
+
+h1{
+	font-family: impact;
+	font-size: 4vw;
+	display: flex;
+	justify-content: center;
+	letter-spacing: 2.5px;
+}
+
+h2{
+	font-family: impact;
+	font-size: 2.7vw;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.coffee{
+	padding-top: 20px;
+	text-transform: uppercase;
+
+}
+
+.est{
+	padding-top: 10px;
+	font-style: italic;
+	padding-bottom: 12px ;
+	margin: 0 45%;
+}
+
+hr{
+	border-color: black;
+	margin-bottom: 20px;
+	height: 2px;
+	background-color: brown;
+}
+
+img{
+	display: block;
+	margin: auto;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+.container p{
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 1.5vw;
+}
+
+.food{
+	text-align: left;
+	width: 74%;	
+}
+
+
+.price{
+	text-align: right;
+	width: 25%;	
+
+}
+
+
+.item1, .item2{
+	margin-bottom: 20px;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

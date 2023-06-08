@@ -1,0 +1,85 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Kanit&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+*{
+	margin: 0px;
+	text-decoration-style: none;
+}
+
+h1{
+	display: flex;
+	place-content: center;
+	font-size: 4vw;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 800;
+	border-bottom: solid 1px black;
+}
+
+h2{
+	font-size: 3vw;
+}
+
+h3{
+	font-size:  2vw;
+}
+
+p{
+	font-size: 1.8vw;
+}
+
+.unordered, .ordered{
+	font-size: 1.8vw;
+}
+
+img{
+	width: 40vw;
+}
+body{
+	background-image: url(https://media.giphy.com/media/PieMNjVUgg4Qo/source.gif);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	box-sizing: border-box;
+	width: 80%;
+	height: 100%;
+	text-align: left;
+	margin: 5% 10%;
+	}
+
+.container{
+	background-image: linear-gradient( to top, dimgrey, seagreen, skyblue);
+	padding: 2%;
+}
+form{
+	text-align: left;
+}
+
+.section1{
+	margin-top: 35px;
+}
+
+.section2{
+	margin-top: 35px;
+}
+
+.section3{
+	margin-top: 35px;
+}
+
+.section4{
+	margin-top: 35px;
+	width: 50%;
+	font-size: 1vw;
+}
+
+.submit{
+	width: 50%;
+	display: flex;
+	place-content: center;
+}
+
+.ooter{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
