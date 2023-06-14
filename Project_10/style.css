@@ -1,0 +1,167 @@
+*{
+	margin: 0px 5px;
+	padding:0px;
+	box-sizing: border-box;
+	background-color: #ccffcc;
+
+}
+
+.container{
+	height: 100vh;
+ }
+
+.header{
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header_logo{
+	font-size: 4vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_menu{
+	display: flex;
+	font-size: 2.5vw;
+	gap: 15px;
+
+	justify-content: center;
+	align-items: center;
+
+}
+
+.main{
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.main_image{
+	background-image: url(luffy.jpg);
+	width: 50%;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-right: 5%;
+
+}
+
+.main_text{
+	width: 50%;
+
+	display: grid;
+	place-content: center;
+}
+
+.main_text-1{
+	font-size: 10vw;
+}
+
+.main_text-2, .main_text-3, .main_text-4{
+	font-size: 4.5vw;
+
+}
+.footer{
+	height: 10%;
+
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: flex-end;
+	margin-right: 5%;
+
+
+}
+
+.footer img{
+	width: 5.3vw;
+}
+
+
+
+#size{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform:translateX(-50%);
+	color: red;
+}
+
+@media (max-width: 650px){
+	.header{
+		justify-content: center;
+	}
+
+}
+
+@media (max-width: 650px){
+	.header_logo{
+		justify-content: center;
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 650px){ 
+	.header_menu{
+		display: none;
+	}
+}
+
+@media (max-width:650px){
+	.main{
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+	}
+}
+
+@media (max-width:650px){
+	.main_image{
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		background-position: center;
+	}
+}
+
+
+@media (max-width:650px){
+	.main_text{
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+}
+
+@media (max-width:650px){
+	.main_text-1{
+		display: none;
+	}
+}
+
+@media (max-width:650px){
+	.main_text-2, .main_text-3, .main_text-4{
+		font-size: 30px;
+	}
+}
+@media (max-width:650px){
+	.footer{
+		justify-content: center;
+		margin: 0px;
+	}
+
+@media (max-width:650px){
+	.footer img{
+		width: 45px;
+		height: 45px;
+		
+	}
+}

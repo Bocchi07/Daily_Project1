@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		*{
+			margin: 0;
+			font-family: Arial;
+		}
+
+		.friend{
+			display: flex;
+			flex-direction: row;
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0.3) ;
+			width: 300px;
+			height: 65px;
+			justify-content: space-between;
+			margin-bottom: 2px;
+			margin-top: 10px;
+			margin-left: 80px;
+
+		}
+
+		.profile{
+			width: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.cats{
+			width: 35px;
+			height: 35px;
+			background-color: lightblue;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 60px;
+			object-fit: cover;
+		}
+
+		.name{
+			margin-left: 6px;
+			display: flex;
+			justify-content: start;
+			align-items: center;
+			flex: 1;
+			line-height: 16px;
+		}
+
+		.inside{
+			display: inline-block;
+		}
+
+
+		.button{
+			display: flex;
+			width: 70px;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.follow{
+			height: 27px;
+			width: 60px;
+			display: flex;
+			text-align: center;
+			justify-content: center;
+			padding-top: 7px;
+			font-weight: bold;
+			color: white;
+			background-color: dodgerblue;
+			border: none;
+			border-radius: 5px;
+		}
+
+		.paragraph{
+			color: grey;
+			font-size: 12px;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<div class="friend">
+			<div class="profile">
+				<img class="cats" src="https://s-media-cache-ak0.pinimg.com/originals/84/13/72/8413725d1ce9aa0dfa5c0ed4af85c95e.jpg">
+			</div>
+
+			<div class="name">
+				<div class="inside"> 
+				<p><strong> Cutie Pie</strong> </p>
+				<span class="paragraph" ><p>The Cat</p>
+				<p>popular</p> </span>
+			</div>
+			</div>
+			<div class="button">
+				<button class="follow">Follow</button>
+			</div>
+		</div>
+
+		<div class="friend">
+			<div class="profile">
+				<img class="cats" src="https://i.ytimg.com/vi/Wjwi-NIztlI/maxresdefault.jpg">
+			</div>
+
+			
+			<div class="name">
+				<div class="inside"> 
+				<p><strong> Monkey D.Luffy</strong> </p>
+				<span class="paragraph" ><p>Straw hat</p>
+				<p>popular</p> </span>
+			</div>
+			</div>
+			<div class="button">
+				<button class="follow">Follow</button>
+			</div>
+		</div>
+
+		<div class="friend">
+			<div class="profile">
+				<img class="cats" src="https://th.bing.com/th/id/R.bb8d638e347128e7a49bd09cd2e02274?rik=tE3sBrkdKi17qw&riu=http%3a%2f%2fpm1.narvii.com%2f6350%2f0adc0fbc5fed89147179591d5abb428600acf8a4_00.jpg&ehk=Ggjyc6aGwXu9OSQiis0J3DqRgtpjz0ynVUYW%2fUJfWQs%3d&risl=&pid=ImgRaw&r=0">
+			</div>
+
+			
+			<div class="name">
+				<div class="inside"> 
+				<p><strong> Satou Kazuma</strong> </p>
+				<span class="paragraph" ><p>Steal!!</p>
+				<p>Unpopular</p> </span>
+			</div>
+			</div>
+			<div class="button">
+				<button class="follow">Follow</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

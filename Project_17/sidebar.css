@@ -1,0 +1,13 @@
+.sidebar{
+	top: 84px;
+	left: 0;
+	bottom: 0;
+	width: 120px;
+	position: fixed;
+}
+
+.sidebar-icon{
+	width: 55px;
+	margin-left: 15px;
+	margin-bottom: 10px ;
+}
